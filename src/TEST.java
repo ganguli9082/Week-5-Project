@@ -23,6 +23,10 @@ public class TEST extends Application{
 	Square3.XRand();
 	Square3.YRand();
 	
+	Square1.GetSQUARE();
+	Square2.GetSQUARE();
+	Square3.GetSQUARE();
+	
 	Group LargeSquares = new Group(Square1, Square2, Square3);
 	Scene scene = new Scene(Square1, 512, 512, Color.WHITE);
 	
