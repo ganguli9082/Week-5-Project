@@ -39,8 +39,8 @@ public class QRLabel extends Application {
                 
 		
                  
-        final int XMAX = 385;
-		final int YMAX = 385;
+        final int XMAX = 128;
+		final int YMAX = 128;
 		Random rand = new Random();
 		
 		int X = 0;
@@ -52,10 +52,10 @@ public class QRLabel extends Application {
 		// initial values OUTER = 0, MID = 16, INNER = 32
 		int X1= rand.nextInt(XMAX);
 		int Y1 = rand.nextInt(YMAX);
-		int X2= rand.nextInt(XMAX);
+		int X2= rand.nextInt(XMAX) + 256;
 		int Y2 = rand.nextInt(YMAX);
 		int X3= rand.nextInt(XMAX);
-		int Y3 = rand.nextInt(YMAX);
+		int Y3 = rand.nextInt(YMAX) + 256;
 		
 		
 		

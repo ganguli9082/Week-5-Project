@@ -14,7 +14,7 @@ public class TEST extends Application{
 	Square1 = new SQUARE();
 	Square2 = new SQUARE();
 	Square3 = new SQUARE();
-	
+	Rectangle Square4 = new Rectangle(GetSQUARE(Square1));
 	
 	Square1.XRand();
 	Square1.YRand();
